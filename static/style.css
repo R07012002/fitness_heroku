@@ -71,7 +71,7 @@ body {
 .btn:hover,
 .btn:active{
     text-decoration: underline;
-    color: rgb(20, 93, 220);
+    color: rgba(205, 219, 205, 0.482);
 }
 
 .container {
