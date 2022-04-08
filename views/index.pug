@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+   style
+       include ../static/style.css
+<body>
+
+    
+
+    <header class="header">
+
+        <!-- left Box for logo -->
+        <div class="left">
+            <img src="img/dumbbells.webp">
+           
+        </div>
+
+        <!-- right box for button  -->
+        <div class="right">
+            <button class="btn">Call us</button>    
+            <button class="btn">Email us</button>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a>Home</a></li>
+                <li><a> About us </a> </li>
+                <li><a>Fitness center</a></li>
+                <li><a>Contact us</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h1><p style="color: rgb(73, 142, 211)"> THE NEW FITNESS NOW!!!</p></h1>
+            <form action="/" method="POST" id="contact">
+                <div class="form-group">
+                    <input type="text"  id="name" name="name" placeholder="ENTER YOUR NAME" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" size="2" id="age"  name="age" placeholder="ENTER YOUR AGE" maxlength="2" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="gender" name="gender" placeholder="ENTER YOUR GENDER" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="mobile"  name="mobile" placeholder="ENTER YOUR MOBILE NO." title="Error Message"  pattern="[1-9]{1}[0-9]{9}" required>
+                </div>
+
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
