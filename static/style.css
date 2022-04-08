@@ -53,13 +53,13 @@ body {
 .navbar li a:active {
 
     text-decoration: underline;
-    color: rgb(73, 142, 211);
+    color: rgb(83, 78, 71);
 }
 
 .btn {
     font-family: 'Baloo Bhaijaan 2', cursive;
     margin: 0px 9px;
-    background-color: rgb(171, 221, 234);
+    background-color: rgb(185, 196, 198);
     color: rgba(8, 8, 7, 0.911);
     padding: 4px 15px;
     border: 2px solid rgb(160, 171, 193);
