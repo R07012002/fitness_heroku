@@ -61,7 +61,7 @@ body {
     margin: 0px 9px;
     background-color: rgb(185, 196, 198);
     color: rgba(8, 8, 7, 0.911);
-    padding: 4px 15px;
+    padding: 7px 30px;
     border: 2px solid rgb(160, 171, 193);
     font-size: 20px;
     cursor: pointer;
@@ -90,7 +90,7 @@ body {
 .container button {
     text-align: center;
     margin: 7px auto;
-    width: 611px;
+    width: 630px;
 }
 
 .form-group input {
